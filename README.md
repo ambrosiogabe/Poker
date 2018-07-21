@@ -15,8 +15,11 @@ image. The rest is pretty basic. I create a deck and pull random cards for each 
 been played so there are no duplicates.
 
 # To run
-In order to run this clone the repository to some spot on your computer. I was a little confused on how to run packages at first
-so I'll let you know how it works. Make sure you have Java installed and your JAVA_HOME set in your environment variables.
+In order to run this clone the repository to some spot on your computer. I was a little confused on how to run packages at first so I'll let you know how it works. Make sure you have Java installed and your JAVA_HOME set in your environment variables. 
+
+Once that is done you need to move the /poker/res/spritesheet.png directory to your home directory. This is IMPORTANT if you 
+do not move the entire /poker/res/spritesheet.png directory to your home directory the game will not work.
+
 Then open a Command Prompt or Terminal and change into the bin directory. Then run:
 ```
 java main.Main
